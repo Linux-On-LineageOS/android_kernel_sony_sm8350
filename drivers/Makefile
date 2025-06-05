@@ -188,3 +188,4 @@ obj-$(CONFIG_INTERCONNECT)	+= interconnect/
 obj-$(CONFIG_COUNTER)		+= counter/
 
 obj-y += sony/
+obj-$(CONFIG_DRM_LINDROID_EVDI) += lindroid-drm/
